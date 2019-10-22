@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux'
-import count from './count'
+import events from './events'
 
-const reducer = combineReducers({ count })
+const reducer = combineReducers({ events })
 export default reducer;
