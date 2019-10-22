@@ -1,4 +1,5 @@
 import { combineReducers } from 'redux'
 import count from './count'
 
-export default combineReducers({ count })
+const reducer = combineReducers({ count })
+export default reducer;
